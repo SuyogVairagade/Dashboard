@@ -1,5 +1,3 @@
-/* Dashboard.css */
-
 .dashboard {
     display: flex;
     height: 100vh;
@@ -14,7 +12,7 @@
     top: 0;
     z-index: 1000;
     padding: 0.5rem 1rem;
-    background-color: #2196f3; /* Change to your desired color */
+    background-color: #404142;
     color: white;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   }
@@ -26,8 +24,8 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin-top: 60px; /* Added margin-top to bring down the side navigation below the header */
-  }
+    margin-top: 60px; 
+}
   
   .menu-item {
     cursor: pointer;
@@ -60,8 +58,5 @@
   .menu2-container {
     display: block;
     margin-top:60px;
-    /* Add specific styles for containers */
   }
-  
-  /* Add responsive styles as needed */
   
